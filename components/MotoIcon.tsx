@@ -9,7 +9,7 @@ import Animated, {
 
 import { ThemedText } from "@/components/ThemedText";
 
-export function HelloWave() {
+export function MotoIcon() {
     const rotationAnimation = useSharedValue(0);
 
     rotationAnimation.value = withRepeat(
